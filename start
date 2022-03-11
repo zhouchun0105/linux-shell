@@ -1,0 +1,34 @@
+# Write a bash script that prints the string "HELLO".
+echo "HELLLO"
+
+# Write a Bash script which accepts name as input and displays the greeting "Welcome (name)"
+read name
+echo "Welcome $name"
+
+read name
+echo "Welcome $name, your current directory is $pwd"
+
+# Use a for loop to display the natural numbers from 1 to 50.
+for i in {1..50}
+do 
+echo "$i"
+done
+
+# Your task is to use for loops to display only odd natural numbers from 1 to 99.
+for i in {1..99..2} -- begin, end, increment
+do 
+echo "$i"
+done
+
+# Given two integers, X and Y, find their sum, difference, product, and quotient.
+read X
+read Y
+echo "$[X+Y]"
+echo "$[X-Y]"
+echo "$[X*Y]"
+echo "$[X/Y]"
+
+
+imc
+
+
